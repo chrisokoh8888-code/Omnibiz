@@ -1,0 +1,49 @@
+:root {
+  --bs-success: #10b981;
+  --bs-success-rgb: 16, 185, 129;
+}
+
+body {
+  background-color: #09090b;
+  color: #f1f1f1;
+}
+
+.navbar {
+  background-color: #18181b !important;
+}
+
+.card {
+  background-color: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-success {
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.btn-success:hover {
+  background-color: #059669;
+  border-color: #059669;
+}
+
+.text-emerald {
+  color: #10b981;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+}
+
+/* Make charts look nice */
+canvas {
+  max-height: 380px;
+}
